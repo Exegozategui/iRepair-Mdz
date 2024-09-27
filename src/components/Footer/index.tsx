@@ -22,7 +22,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    className="mr-6 text-body-color duration-300 hover:ring-gray-500 dark:text-body-color-dark dark:hover:ring-gray-600"
                   >
                     <svg
                       width="18"
@@ -42,7 +42,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    className="mr-6 text-body-color duration-300 hover:ring-gray-500 dark:text-body-color-dark dark:hover:ring-gray-600"
                   >
                     <svg
                       width="18"
@@ -64,7 +64,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    className="mr-6 text-body-color duration-300 hover:ring-gray-500 dark:text-body-color-dark dark:hover:ring-gray-600"
                   >
                     <svg
                       width="18"
@@ -80,7 +80,7 @@ const Footer = () => {
                     aria-label="social-link"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    className="text-body-color duration-300 hover:ring-gray-500 dark:text-body-color-dark dark:hover:ring-gray-600"
                   >
                     <svg
                       width="17"
@@ -104,7 +104,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/blog"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:ring-gray-600 dark:text-body-color-dark dark:hover:ring-gray-600"
                     >
                       Productos
                     </Link>
@@ -113,7 +113,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:ring-gray-500 dark:text-body-color-dark dark:hover:ring-gray-600"
                     >
                       Nosotros
                     </Link>
@@ -131,7 +131,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:ring-gray-500 dark:text-body-color-dark dark:hover:ring-gray-600"
                     >
                      Términos de Servicio
                     </Link>
@@ -139,7 +139,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:ring-gray-500 dark:text-body-color-dark dark:hover:ring-gray-600"
                     >
                      Política de Privacidad
                     </Link>
@@ -147,7 +147,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:ring-gray-500 dark:text-body-color-dark dark:hover:ring-gray-600"
                     >
                        Política de Reembolso
                     </Link>
@@ -166,7 +166,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:ring-gray-500 dark:text-body-color-dark dark:hover:ring-gray-600"
                     >
                       Términos de Uso
                     </Link>
@@ -174,7 +174,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:ring-gray-500 dark:text-body-color-dark dark:hover:ring-gray-600"
                     >
                        Acerca de
                     </Link>
@@ -189,10 +189,10 @@ const Footer = () => {
             <p className="text-center text-base text-body-color dark:text-white">
             ©
               <a
-                href=""
+                href="https://asterbizz.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-primary"
+                className="hover:ring-gray-500"
               >
                 AsterBizz
               </a>{" "}
@@ -331,8 +331,8 @@ const Footer = () => {
                 y2="59.8878"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0.62" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#888888" stopOpacity="0.62" />
+                <stop offset="1" stopColor="#888888" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_94:889"
@@ -342,8 +342,8 @@ const Footer = () => {
                 y2="20.668"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.51" />
+                <stop stopColor="#888888" stopOpacity="0" />
+                <stop offset="1" stopColor="#888888" stopOpacity="0.51" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_94:889"
@@ -353,8 +353,8 @@ const Footer = () => {
                 y2="25.1062"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0.62" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#888888" stopOpacity="0.62" />
+                <stop offset="1" stopColor="#888888" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint3_linear_94:889"
@@ -364,8 +364,8 @@ const Footer = () => {
                 y2="80.6826"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.51" />
+                <stop stopColor="#888888" stopOpacity="0" />
+                <stop offset="1" stopColor="#888888" stopOpacity="0.51" />
               </linearGradient>
               <linearGradient
                 id="paint4_linear_94:889"
@@ -375,8 +375,8 @@ const Footer = () => {
                 y2="58.2156"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0.62" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
+                <stop stopColor="#888888" stopOpacity="0.62" />
+                <stop offset="1" stopColor="#888888" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint5_linear_94:889"
@@ -386,8 +386,8 @@ const Footer = () => {
                 y2="41.6598"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#4A6CF7" stopOpacity="0" />
-                <stop offset="1" stopColor="#4A6CF7" stopOpacity="0.51" />
+                <stop stopColor="#888888" stopOpacity="0" />
+                <stop offset="1" stopColor="#888888" stopOpacity="0.51" />
               </linearGradient>
             </defs>
           </svg>

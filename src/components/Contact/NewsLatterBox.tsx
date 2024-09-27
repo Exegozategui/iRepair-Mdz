@@ -7,34 +7,18 @@ const NewsLatterBox = () => {
 
   return (
     <div className="relative z-10 rounded-sm bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11">
-      <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
-      Suscríbete para recibir novedades y ofertas
-      </h3>
-      <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-      Mantente al día con nuestras últimas reparaciones, accesorios y promociones exclusivas.
-      </p>
-      <div>
-        <input
-          type="text"
-          name="name"
-          placeholder="Ingresa tu nombre"
-          className="border-stroke mb-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Ingresa tu correo electrónico"
-          className="border-stroke mb-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
-        />
-        <input
-          type="submit"
-          value="Suscribirse"
-          className="mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
-        />
-        <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
-        No te preocupes, no enviamos spam. Tu privacidad es importante para nosotros.
-        </p>
-      </div>
+    <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
+      Encuéntranos en nuestra ubicación
+    </h3>
+    <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
+      Visítanos en nuestro local para obtener soporte técnico especializado.
+    </p>
+    <div className="w-full h-[300px] sm:h-[400px] lg:h-[300px]">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13400.301823372876!2d-68.8350623!3d-32.8961732!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e096e5dceb975%3A0x6d0176fe0f9e5ec4!2siRepair%20Servicio%20T%C3%A9cnico%20Especializado!5e0!3m2!1ses-419!2sar!4v1727460722563!5m2!1ses-419!2sar"
+        width="100%" height="100%" style={{border:0}}  loading="lazy" referrerPolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
 
       <div>
         <span className="absolute left-2 top-7">
@@ -60,12 +44,12 @@ const NewsLatterBox = () => {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                   stopOpacity="0.62"
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -96,12 +80,12 @@ const NewsLatterBox = () => {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                   stopOpacity="0.62"
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -132,12 +116,12 @@ const NewsLatterBox = () => {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                   stopOpacity="0.62"
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -186,11 +170,11 @@ const NewsLatterBox = () => {
               >
                 <stop
                   offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -204,11 +188,11 @@ const NewsLatterBox = () => {
               >
                 <stop
                   offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -222,11 +206,11 @@ const NewsLatterBox = () => {
               >
                 <stop
                   offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>
@@ -240,11 +224,11 @@ const NewsLatterBox = () => {
               >
                 <stop
                   offset="0.328125"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                 />
                 <stop
                   offset="1"
-                  stopColor={theme === "light" ? "#4A6CF7" : "#fff"}
+                  stopColor={theme === "light" ? "#888888" : "#fff"}
                   stopOpacity="0"
                 />
               </linearGradient>
